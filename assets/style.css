@@ -1,0 +1,76 @@
+body {
+    background-color: beige;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+
+}
+
+.selection {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2.8rem;
+    transition: 100ms;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
+#rules {
+    font-family:'Cute Font', cursive;
+    font-weight: bold;
+    justify-content: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-items: left;
+    position: absolute;
+    left: - 2%; 
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color:black;
+  }
+
+
+
+.results {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size:  150%;
+    font-family: 'Cute Font', cursive;
+    font-weight: bold;
+}
+.result-score {
+    margin-left: .5rem ;
+    font-size: 1rem;
+}
+
+.result-selection {
+opacity: .3;
+}
+
+.result-selection.winner {
+opacity: 1;
+font-size: 200%;
+}
+
+span {
+
+}
