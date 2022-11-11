@@ -2,6 +2,12 @@ body {
     background-color: beige;
 }
 
+h1 {
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
 .selections {
     display: flex;
     justify-content: center;
@@ -25,6 +31,7 @@ body {
 
 #rules {
     font-family:'Cute Font', cursive;
+    font-size: 23px;
     font-weight: bold;
     justify-content: left;
     background: none;
@@ -33,6 +40,7 @@ body {
     align-items: left;
     position: absolute;
     left: - 2%; 
+   
 }
 
 a {
@@ -63,7 +71,7 @@ a:visited{
 }
 
 .result-selection {
-opacity: .3;
+opacity: .4;
 }
 
 .result-selection.winner {
